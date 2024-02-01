@@ -15,14 +15,11 @@ public class App {
        Drone drone = new Drone();
        Bird bird = new Bird();
        
-       
        pollObj(queen);
        pollObj(worker);
        pollObj(drone);
 
        pollObj(bird);
-
-
     }
 
     // ---- Polymorphie Bees -----//
@@ -38,10 +35,6 @@ public class App {
         output(obj.fly());
         output("-----------------");
     }
-
-
-
-
 
 
     private static void output(String outputStr) {
